@@ -1,0 +1,24 @@
+// Write a JavaScript conditional statement to find the sign of product of three numbers. Display an alert box with the specified sign.
+// Sample numbers : 3, -7, 2
+// Output : The sign is -
+
+// if less than zero ouput -
+//   if greater than zero output +
+ 
+ 
+ 
+ 
+//Begin Solution
+let a = 3;
+let b = -7;
+let c = -2;
+let combine = a*b*c;
+if(combine<0){
+  console.log(`${combine} is a negative number and its symbol is (-)`);
+}
+else if(combine === 0){
+  console.log(`${combine} is a neutral number and its symbol is undefined`);
+}
+else{
+  console.log(`${combine} is a positive number and its symbol is (+)`);
+}
